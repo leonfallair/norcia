@@ -1,0 +1,27 @@
+name: 3D_analysis_norcia
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - polyscope
+  - matplotlib
+  - geopandas
+  - pyogrio
+  - pandas
+  - numpy
+  - jupyter
+  - ipython
+  - python-pdal
+  - rasterio
+  - laspy
+  - scipy
+  - ipyleaflet
+  - pyproj
+  - scikit-learn
+  - tqdm
+  - shapely
+  - helios=2
+  - pip:
+    - py4dgeo
